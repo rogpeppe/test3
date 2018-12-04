@@ -1,7 +1,5 @@
 package foo
 
-import "gopkg.in/errgo.v2/errors"
+import "github.com/rogpeppe/test/bar"
 
-func F() errors.Causer {
-	return nil
-}
+const X = bar.X
