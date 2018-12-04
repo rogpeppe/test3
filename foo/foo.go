@@ -2,4 +2,4 @@ package foo
 
 import "github.com/rogpeppe/test/bar"
 
-const X = bar.X
+const X = "test3/bar: " + bar.X
